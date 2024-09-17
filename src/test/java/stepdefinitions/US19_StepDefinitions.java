@@ -50,6 +50,8 @@ public class US19_StepDefinitions {
 
 
     }
+
+
     @Then("the page should contain the {string} button")
     public void the_page_should_contain_the_button(String string) {
         // Write code here that turns the phrase above into concrete actions
@@ -62,7 +64,7 @@ public class US19_StepDefinitions {
     }
 
 
-    @When("{int} saniye bekle")
+    @When("{int} sn wait")
     public void saniye_bekle(Integer int1) {
         ReusableMethods.bekle(int1);
     }
