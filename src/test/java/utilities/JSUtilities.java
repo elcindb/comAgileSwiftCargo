@@ -79,5 +79,11 @@ public class JSUtilities {
         return actualErrorMessage;
     }
 
+    public static String getInput( WebElement element){
+        String retrievedValue=(String) ((JavascriptExecutor)Driver.getDriver()).executeScript("return arguments[0].value;",element);
+
+        return retrievedValue;
+    }
+
 
 }

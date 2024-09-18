@@ -165,6 +165,18 @@ public class US36_StepDefinitions {
             admin.salaryButtonDashboard.click();
         }
 
+        if (string.equals("ClearSalaryPage")){
+            ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", admin.clearSalaryListButton);
+            admin.clearSalaryListButton.click();
+        }
+
+        if (string.equals("Pay slip")){
+            ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", admin.paySlipButtonSalaryList);
+            admin.paySlipButtonSalaryList.click();
+        }
+
+
+
     }
 
     @Then("verify that {string} is filtered in the branch list.")
