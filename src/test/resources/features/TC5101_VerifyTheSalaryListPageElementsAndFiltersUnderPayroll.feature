@@ -1,6 +1,6 @@
 Feature:  US 51 Verify the Salary List Page Elements and Filters under Payroll
 
-  Scenario: Ensure that after navigating to the Salary List page under the Payroll section,
+  Scenario: TC 5101 Ensure that after navigating to the Salary List page under the Payroll section,
   the user sees the relevant elements,
   including text boxes for filtering, buttons for filtering actions, a salary list table,
   and an option to create a new salary entry.

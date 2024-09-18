@@ -151,6 +151,9 @@ public class Merchant {
     public WebElement dashboardButton;
 
 
+    @FindBy(xpath = "//a[@class='dropdown-item']")
+    public WebElement menuOptions;
+
 }
 
 

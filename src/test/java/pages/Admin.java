@@ -190,6 +190,23 @@ public class Admin {
     @FindBy(xpath = "//label[text()='Month']")
     public WebElement monthUstLabel;
 
+    @FindBy(xpath = "//tr[1]//td[4]")
+    public WebElement valueMonthLabel;
+
+    @FindBy(xpath = "//a[@class='dropdown-item']")
+    public List<WebElement> menuOptions;
+
+    @FindBy(xpath = "//a[@href='https://qa.agileswiftcargo.com/admin/salary/pay-slip/4909']")
+    public WebElement paySlipButtonSalaryList;
+
+    @FindBy(xpath = "//h2[text()='500 Internal Server Error.']")
+    public WebElement internetServerError500;
+
+
+
+
+
+
 
 
 
