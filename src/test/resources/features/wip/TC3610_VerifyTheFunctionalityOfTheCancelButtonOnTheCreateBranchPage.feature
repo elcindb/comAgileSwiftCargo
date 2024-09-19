@@ -1,6 +1,6 @@
-Feature:  Verify the Functionality of the 'Cancel' Button on the Create Branch Page
+Feature:  US36 Verify the Functionality of the 'Cancel' Button on the Create Branch Page
 
-  Scenario: Ensure that the 'Cancel' button on
+  Scenario: TC3610 Ensure that the 'Cancel' button on
   the 'Create Branch' page is functional
   and returns the user to the
   'Branch Management' page without saving any changes.

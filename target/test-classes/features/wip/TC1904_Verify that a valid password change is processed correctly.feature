@@ -1,6 +1,6 @@
 Feature: US019 Successful Password Change
 
-  Scenario: Verify that a valid password change is processed correctly.
+  Scenario: TC1904 Verify that a valid password change is processed correctly.
 
     Given The user is logged in to the Merchant page
     When The user clicks on the profile icon in the top bar

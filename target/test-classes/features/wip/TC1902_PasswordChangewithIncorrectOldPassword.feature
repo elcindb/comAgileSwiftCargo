@@ -1,7 +1,7 @@
 
 Feature: US019 Password Change with Incorrect Old Password
 
-  Scenario: Verify that the system prevents password changes when the old password is incorrect.
+  Scenario: TC1902 Verify that the system prevents password changes when the old password is incorrect.
     Given The user is logged in to the Merchant page
     When The user clicks on the profile icon in the top bar
     And the user clicks on the "Change password" link in the menu then new page should open

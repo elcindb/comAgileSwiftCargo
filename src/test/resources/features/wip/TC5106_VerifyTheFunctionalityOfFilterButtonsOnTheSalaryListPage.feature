@@ -1,6 +1,6 @@
-Feature:  US 51 Verify the Functionality of 'Clear' Buttons on the Salary List Page
+Feature:  US51 Verify the Functionality of 'Clear' Buttons on the Salary List Page
 
-  Scenario: TC 5106 Ensure that the  the 'Filter'
+  Scenario: TC5106 Ensure that the  the 'Filter'
   button correctly filters salaries based
   on the selected criteria for "User" and "Month."
 

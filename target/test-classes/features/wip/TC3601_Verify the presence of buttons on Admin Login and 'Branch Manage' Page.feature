@@ -1,6 +1,6 @@
-Feature: Verify the presence of buttons on Admin Login and 'Branch Manage' Page
+Feature: US 36 Verify the presence of buttons on Admin Login and 'Branch Manage' Page
 
-  Scenario: Checking the presence of 'Clear', 'Filter', (+) buttons, 'Actions', 'Name', and 'Phone' text boxes
+  Scenario: TC3601 Checking the presence of 'Clear', 'Filter', (+) buttons, 'Actions', 'Name', and 'Phone' text boxes
 
     Given The user is logged in to the Admin page
     And The user clicks on 'Branch Manage' in the Dashboard menu

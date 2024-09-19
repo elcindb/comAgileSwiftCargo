@@ -1,6 +1,6 @@
-Feature:  US 51 Verify the 'Pay Slip' Option under the 'Actions' Button
+Feature:  US51 Verify the 'Pay Slip' Option under the 'Actions' Button
 
-  Scenario: TC 5104 Ensure that clicking
+  Scenario: TC5104 Ensure that clicking
   on the 'Pay Slip' option under the 'Actions'
   dropdown for the first salary entry opens the pay slip details.
 

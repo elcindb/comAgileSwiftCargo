@@ -1,6 +1,6 @@
-Feature:  Verify Dropdown Menu Options under the 'Actions' Button
+Feature:  US36 Verify Dropdown Menu Options under the 'Actions' Button
 
-  Scenario: Ensure that when the blue box under the 'Actions' heading is clicked,
+  Scenario: TC3611 Ensure that when the blue box under the 'Actions' heading is clicked,
   a dropdown menu appears with the options:
   "View," "Edit," "Manage in-Charge," and "Delete."
 

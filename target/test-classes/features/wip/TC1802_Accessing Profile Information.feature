@@ -1,6 +1,6 @@
 Feature: US018 Accessing Profile Information
 
-  Scenario:TC02 Verify that clicking the 'Profile' button displays general information.
+  Scenario:TC1802 Verify that clicking the 'Profile' button displays general information.
 
     Given The user is logged in to the Merchant page
     When The user clicks on the profile icon in the top bar

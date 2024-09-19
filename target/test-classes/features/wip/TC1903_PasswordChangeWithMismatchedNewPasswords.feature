@@ -1,7 +1,7 @@
 
 Feature: US019 Password Change with Mismatched New Passwords
 
-  Scenario:Verify that the system prevents password changes when the new password and confirmation do not match.
+  Scenario:TC1903 Verify that the system prevents password changes when the new password and confirmation do not match.
 
     Given The user is logged in to the Merchant page
     When The user clicks on the profile icon in the top bar

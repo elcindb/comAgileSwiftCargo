@@ -1,6 +1,6 @@
-Feature:  US 51 Verify the Elements under the 'Actions' Button for the First Salary Entry
+Feature:  US51 Verify the Elements under the 'Actions' Button for the First Salary Entry
 
-  Scenario: TC 5103 Ensure that clicking on the
+  Scenario: TC5103 Ensure that clicking on the
   'Actions' button for the first salary entry in
   the list opens a dropdown menu displaying the necessary elements.
 

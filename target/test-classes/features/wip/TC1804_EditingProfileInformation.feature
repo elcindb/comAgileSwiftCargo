@@ -1,6 +1,6 @@
 Feature: US018 Editing Profile Information
 
-  Scenario:TC04 Verify that profile information can be successfully edited.
+  Scenario:TC1804 Verify that profile information can be successfully edited.
 
     Given The user is logged in to the Merchant page
     When The user clicks on the profile icon in the top bar

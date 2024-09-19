@@ -1,6 +1,6 @@
-Feature: Test the functionality of the '(+)' button.
+Feature: US36 Test the functionality of the '(+)' button.
 
-  Scenario: Checking the function of the “plus”(+) button on the Admin Login and 'Branch Management' page
+  Scenario: TC3605 Checking the function of the “plus”(+) button on the Admin Login and 'Branch Management' page
 
     Given The user is logged in to the Admin page
     And  The user clicks on 'Branch Manage' in the Dashboard menu
