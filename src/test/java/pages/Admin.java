@@ -202,7 +202,8 @@ public class Admin {
     @FindBy(xpath = "//h2[text()='500 Internal Server Error.']")
     public WebElement internetServerError500;
 
-
+    @FindBy (xpath = "(//*[text()='Payout'])[2]")
+    public WebElement payoutLink;
 
 
 

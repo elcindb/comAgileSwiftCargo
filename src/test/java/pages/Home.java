@@ -64,6 +64,32 @@ public Home(){
     @FindBy (xpath = "//*[@class='alert alert-success']")
     public WebElement mailDogrulamaTexti;
 
+    @FindBy (xpath = "(//*[text()=' Accounts'])[2]")
+    public WebElement menuAccountsLink;
+
+    @FindBy (xpath = " (//*[text()=' Payout'])[2]")
+    public WebElement accountsPayoutLink;
+
+    @FindBy (xpath = "(//*[text()='Payout'])[2]")
+    public WebElement payoutText;
+
+    @FindBy (xpath = "//*[text()='Payout List']")
+    public WebElement payoutListText;
+
+    @FindBy (xpath = "(//*[@class='card'])[2]")
+    public WebElement stripeLink;
+
+    @FindBy(xpath = "//*[@class='form-control ']")
+    public WebElement toAccountDropDown;
+
+    @FindBy(xpath = "//*[@class='form-control w-unset']")
+    public WebElement amountTextBox;
+
+    @FindBy(xpath = "//*[text()='Agile Swift Cargo']")
+    public WebElement merchantPaymentWindow;
+
+    @FindBy(xpath = "//*[text()='Pay Now']")
+    public WebElement payNowButton;
 
 }
 
