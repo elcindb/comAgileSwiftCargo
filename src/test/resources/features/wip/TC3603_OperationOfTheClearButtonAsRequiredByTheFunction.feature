@@ -1,6 +1,6 @@
-Feature: Operation of the clear button as required by the function
+Feature: US 36 Operation of the clear button as required by the function
 
-  Scenario: Checking the function of the “clear” button on the Admin Login and 'Branch Management' page
+  Scenario: TC3603 Checking the function of the “clear” button on the Admin Login and 'Branch Management' page
 
     Given The user is logged in to the Admin page
     And  The user clicks on 'Branch Manage' in the Dashboard menu

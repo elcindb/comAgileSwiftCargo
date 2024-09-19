@@ -131,11 +131,16 @@ public class US36_StepDefinitions {
         }
 
         if(string.equals("Delete")){
-            admin.deleteButtonBrach.click();
+            ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", admin.deleteButtonBrach);
+            js.executeScript("arguments[0].click();", admin.deleteButtonBrach);
+
         }
 
         if(string.equals("Yes")){
-            admin.yesButtonBrach.click();
+            ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", admin.yesButtonBrach);
+            js.executeScript("arguments[0].click();", admin.yesButtonBrach);
+
+
         }
 
         if(string.equals("View")){

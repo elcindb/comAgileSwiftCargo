@@ -1,6 +1,6 @@
 Feature: US019 Accessing Change Password Page
 
-  Scenario:Verify that clicking the 'Change Password' link opens the correct page with all necessary elements.
+  Scenario:TC1901 Verify that clicking the 'Change Password' link opens the correct page with all necessary elements.
 
     Given The user is logged in to the Merchant page
     When The user clicks on the profile icon in the top bar

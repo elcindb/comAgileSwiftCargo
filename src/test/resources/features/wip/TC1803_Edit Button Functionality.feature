@@ -1,6 +1,6 @@
 Feature: US018 Edit Button Functionality
 
-  Scenario:TC02 Verify that clicking the 'Edit' button makes profile information editable.
+  Scenario:TC1803 Verify that clicking the 'Edit' button makes profile information editable.
 
     Given The user is logged in to the Merchant page
     When The user clicks on the profile icon in the top bar

@@ -1,6 +1,6 @@
-Feature: Operation of the “filter” button as required by the function
+Feature:US36 Operation of the “filter” button as required by the function
 
-  Scenario: Checking the function of the “filter” button on the Admin Login and 'Branch Management' page
+  ScenarioTC3602 Checking the function of the “filter” button on the Admin Login and 'Branch Management' page
 
     Given The user is logged in to the Admin page
     And  The user clicks on 'Branch Manage' in the Dashboard menu

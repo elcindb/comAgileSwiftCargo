@@ -1,6 +1,6 @@
-Feature: Validating Error Message for Duplicate Branch Name
+Feature: US36 Validating Error Message for Duplicate Branch Name
 
-  Scenario: Ensure that an appropriate error message is displayed
+  Scenario: TC3607 Ensure that an appropriate error message is displayed
              when entering a branch name that is already registered
              while creating a new branch, even if all other required fields are filled.
 

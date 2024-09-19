@@ -1,6 +1,6 @@
-Feature: Validating Error Message for Invalid Phone Number Length
+Feature: US36 Validating Error Message for Invalid Phone Number Length
 
-  Scenario: Ensure that an appropriate error message is displayed
+  Scenario: TC3608 Ensure that an appropriate error message is displayed
   when entering an invalid phone number (less than 11 digits or more than 14 digits)
   while creating a new branch.
 
