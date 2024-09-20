@@ -1,4 +1,4 @@
-Feature:  US 51 Verify the Salary List Page Elements and Filters under Payroll
+Feature:  US 51 Verify that Filter Text Boxes are Empty on the Salary Page
 
   Scenario: TC 5105 Ensure that after navigating to the Salary List page under the Payroll section,
   the user sees the relevant elements,

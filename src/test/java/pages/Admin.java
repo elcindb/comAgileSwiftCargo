@@ -202,6 +202,34 @@ public class Admin {
     @FindBy(xpath = "//h2[text()='500 Internal Server Error.']")
     public WebElement internetServerError500;
 
+    @FindBy (xpath = "(//*[@class='input-group-prepend be-addon'])[1]")
+    public WebElement assignlink;
+
+    @FindBy (xpath = "(//*[text()='Pickup Assign'])[2]")
+    public WebElement pickUpLink;
+
+    @FindBy (xpath = "//*[@id='select2-delivery_man_search_assign-container']")
+    public WebElement pickupmanDropdownMenu;
+
+
+    @FindBy (xpath = "//input[@aria-label='Search']")
+    public WebElement deliveryTextBox;
+
+
+
+    @FindBy (xpath = "(//*[text()='Save'])[2]")
+    public WebElement saveButton;
+
+    @FindBy (xpath = "(//*[text()='Pickup Assign'])[2]")
+    public WebElement pickUpLinks;
+
+    @FindBy (xpath = "//*[@class='select2-results__option select2-results__option--selectable select2-results__option--highlighted']")
+    public WebElement aliustaText;
+
+
+
+
+
 
 
 

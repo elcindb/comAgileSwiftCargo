@@ -15,11 +15,6 @@ public class US_017 {
     Home home = new Home();
     Merchant merchant = new Merchant();
 
-    @Given("Successfully logged in to the {string} panel")
-    public void successfully_logged_in_to_the_panel(String loginUrl) {
-        Driver.getDriver().get(ConfigReader.getProperty(loginUrl));
-
-    }
 
     @When("Enter an {string} number registered in the system and the correct {string} information")
     public void enter_an_number_registered_in_the_system_and_the_correct_information(String email, String password) {
@@ -31,7 +26,7 @@ public class US_017 {
 
     }
 
-    @Then("Click on the Sign In' button")
+    @Then("Click on the Sign In button")
     public void click_on_the_sign_in_button() {
         home.loginPageSignIn.click();
     }
