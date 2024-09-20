@@ -12,25 +12,6 @@ public class US_046{
 
     WebDriver driver;
 
-    @Given("Yönetici login sayfasına gider")
-    public void yönetici_login_sayfasına_gider() {
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
-        driver = new ChromeDriver();
-        driver.get("https://qa.agileswiftcargo.com/");
-    }
-
-    @When("Yönetici geçerli {string} ve {string} ile giriş yapar")
-    public void yönetici_geçerli_ve_ile_giriş_yapar(String username, String password) {
-        driver.findElement(By.id("email")).sendKeys(username);
-        driver.findElement(By.id("password")).sendKeys(password);
-        driver.findElement(By.id("loginButton")).click(); // Login butonu ID'si değişebilir
-    }
-
-    @When("Yönetici {string} sayfasına gider")
-    public void yönetici_sayfasına_gider(String page) {
-        driver.findElement(By.linkText(page)).click(); // 'Accounts' sayfasına gitme
-    }
-
     @Then("Account bilgilerini görüntüler")
     public void account_bilgilerini_görüntüler() {
         assertTrue(driver.findElement(By.id("accountTable")).isDisplayed()); // Accounts tablo ID'si değişebilir
@@ -76,4 +57,5 @@ public class US_046{
         assertTrue(driver.findElement(By.id("successMessage")).isDisplayed());
         driver.quit();
     }
+
 }
